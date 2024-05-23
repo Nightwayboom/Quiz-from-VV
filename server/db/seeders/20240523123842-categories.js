@@ -6,7 +6,7 @@ module.exports = {
     
       await queryInterface.bulkInsert('Categories', [
         {
-        name: 'Category-1',
+        name: 'Настольный теннис',
       },
       {
         name: 'Category-2',
