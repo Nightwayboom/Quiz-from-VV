@@ -9,7 +9,7 @@ module.exports = {
         name: 'Настольный теннис',
       },
       {
-        name: 'Category-2',
+        name: 'Немного о насущном',
       },
 
     ], {});
