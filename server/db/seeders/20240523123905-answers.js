@@ -55,7 +55,7 @@ module.exports = {
         question_id: 5
       },
       {
-        name: 'Че стало, `${имя соперника}`',
+        name: 'Че стало, `${имя соперника}?`',
         correct: true,
         question_id: 6
       },
@@ -65,14 +65,64 @@ module.exports = {
         question_id: 6
       },
       {
-        name: 'Answ-3(corr)',
+        name: 'bug',
         correct: true,
-        question_id: 2
+        question_id: 7
       },
       {
-        name: 'Answ-4(necorr)',
+        name: 'error',
         correct: false,
-        question_id: 2
+        question_id: 7
+      },
+      {
+        name: ' 12 сентября ',
+        correct: true,
+        question_id: 8
+      },
+      {
+        name: '4 декабря',
+        correct: false,
+        question_id: 8
+      },
+      {
+        name: 'Восьмеричной',
+        correct: true,
+        question_id: 9
+      },
+      {
+        name: 'Десятичной',
+        correct: false,
+        question_id: 9
+      },
+      {
+        name: 'Биточки',
+        correct: true,
+        question_id: 10
+      },
+      {
+        name: 'Отбивнушки',
+        correct: false,
+        question_id: 10
+      },
+      {
+        name: 'О всплывающей Интернет-рекламе',
+        correct: true,
+        question_id: 11
+      },
+      {
+        name: 'О назойливых продавцах пылесосов',
+        correct: false,
+        question_id: 11
+      },
+      {
+        name: '418 I m a teapot',
+        correct: true,
+        question_id: 12
+      },
+      {
+        name: '418 Friday',
+        correct: false,
+        question_id: 12
       },
 
     ], {});
